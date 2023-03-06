@@ -1,0 +1,69 @@
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;    
+}
+.main_img {
+    width: 100%;
+    height: 769px;
+    background-color: #000;
+    background-image: url("./../img/bg_img.jpg");    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+.logo_img {
+    margin: 41px 0 0;
+}
+.title {
+    margin-top: 304px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+    line-height: 70px;
+  
+    letter-spacing: 4.4px;
+    color: #FFFFFF;
+}
+.subtitle {
+    margin-top: -40px;
+    margin-bottom: 223px;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+.main_img p {
+    /* padding-bottom: 51px; */
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 3.7px;
+    color: #FFFFFF;
+}
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu {
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
