@@ -13,37 +13,156 @@
 </head>
 <body>
     <header class="header">
-        <div class="main_img">
-            <img src="img/logo.svg" alt="logo" class="logo_img">
+        <div class="main_img">            
+            <img src="img/logo.svg" alt="logo" class="logo_img">          
             <h1 class="title">
                 PARTNER WITH KONSTRUCT
             </h1>
             <h2 class="subtitle">An award-winning construction management firm</h2>
             <p>SCROLL DOWN</p>
         </div>
-        <div class="container">
-            <nav class="nav">
-                <img src="img/logo_black.svg" alt="logo" class="logo_img">
-                <ul class="menu_list">
-                    <li class="menu_item">
-                        HOME
-                    </li>
-                    <li class="menu_item">
-                        ABOUT
-                    </li>
-                    <li class="menu_item">
-                        SERVICES
-                    </li>
-                    <li class="menu_item">
-                        WORK
-                    </li>
-                    <li class="menu_item">
-                         CONTACT
-                    </li>
-                </ul>
-            </nav>
-        </div>        
+        <nav class="menu">
+            <div class="container">
+                <div class="menu-row">          
+                    <a href="./index.html" class="logo-link"></a>
+                        <img class="logo-img_black" src="img/logo_black.svg" alt="logo">
+                    </a>
+                    <ul class="menu-list">
+                        <li class="menu-list__item">
+                            <a class="menu-list__link" href="./index.html">HOME</a>                            
+                        </li>
+                        <li class="menu-list__item ">
+                            <a class="menu-list__link menu-list__link--active" href="#">ABOUT</a>                            
+                        </li>
+                        <li class="menu-list__item">
+                            <a class="menu-list__link" href="#">SERVICES</a>                            
+                        </li>
+                        <li class="menu-list__item"><a class="menu-list__link" href="#" >WORK</a>                  
+                        </li>
+                        <li class="menu-list__item">
+                            <a class="menu-list__link" href="" >CONTACT</a>                            
+                        </li>
+                    </ul>
+                </div>
+            </div> 
+        </nav>       
     </header>
-    
+    <main>
+        <div class="container">
+            <h2 class="story-title">OUR STORY</h2>
+            <div class="inner-wrapper">
+                <div class="story-text">
+                    <p class="story-subtitle">Founded in 2011 by John Mathew Smith, <em>Konstruct</em> has become the number one construction management firm</p>
+                    <p class="story-description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+                </div>
+                <div class="story-images">
+                    <img class="story-img" src="./img/plan.jpg" alt="">
+                    <img class="story-img" src="./img/manage.jpg" alt="">
+                    <img class="story-img" src="./img/build.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="services-header">
+                <h2 class="services-title">OUR CAPABILITIES</h2>
+                <p class="services-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+                <a class="services-btn" href="#!">ALL SERVICES</a>
+            </div>
+            <div class="services-wrapper">
+                <div class="services-block">
+                    <img class="services-img" src="./img/management.png" alt="Services">
+                    <p class="services-subtitle">PROJECT AND CONSTRUCTION MANAGEMENT</p>
+                    <p class="services-desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+
+                </div>
+                <div class="services-block">
+                    <img class="services-img" src="./img/maintenance.png" alt="Services">
+                    <p class="services-subtitle">STRUCTURE AUDIT AND MAINTENANCE</p>
+                    <p class="services-desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+                </div>
+                <div class="services-block">
+                    <img class="services-img" src="./img/modeling.png" alt="Services">
+                    <p class="services-subtitle">FACTORY CONSTRUCTION AND MODELING</p>
+                    <p class="services-desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+                </div>
+            </div>         
+        </div>
+        <div class="get_in_touch">
+            <div class="container">
+                <h2 class="get-title">
+                    Want to build <br>something amazing?
+                </h2>
+                <div class="get-btn_wrapper">
+                <a class="get-btn" href="#!">GET IN TOUCH</a>
+                </div>
+            </div>
+        </div>
+        <div class="news">
+            <div class="container">
+                <div class="news-wrapper">
+                    <p class="news-text">Newsletter Signup</p>
+                    <div class="news-form_group">                    
+                        <input class="news-form_control" id="email" type="email" placeholder="test@youremail.com" required>
+                    </div>
+                    <a class="news-btn" href="#!">SIGNUP</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="footer-company">
+                    <p class="footer-company_name">COMPANY</p>
+                    <img src="./img/logo.svg" alt="logo" class="footer-company_logo">
+                    <p class="footer-company_text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+                </div>
+                <div class="footer-links">                  
+
+                    <div class="footer-links_company">
+                        <p class="footer-links_text">LINKS</p>
+                        <a href="#!" class="footer-link">HOME</a><br>
+                        <a href="#!" class="footer-link">ABOUT</a><br>
+                        <a href="#!" class="footer-link">SERVICES</a><br>
+                        <a href="#!" class="footer-link">PROJECTS</a><br>
+                        <a href="#!" class="footer-link">CONTACT US</a><br>
+                    </div>
+                    <div class="footer-links_terms">
+                        <a href="#!" class="footer-link">FAQ</a><br>
+                        <a href="#!" class="footer-link">TERMS</a><br>
+                        <a href="#!" class="footer-link">CAREERS</a><br>
+                    </div>
+                    <div class="footer-links_blog">
+                        <a href="#!" class="footer-link">BLOG</a><br>
+                        <a href="#!" class="footer-link">PARTNERS</a><br>
+                        <a href="#!" class="footer-link">NEWS</a><br>                
+                    </div>
+                </div>
+                <div class="footer-contacts">
+                    <p class="footer-contacts_text">CONTACT US</p>
+                    <p class="footer-contacts_address">
+                        213 Baker Street<br>
+                        Oriel City Kounty<br>
+                        7000 KNW,<br>
+                        Kountry Name<br><br>
+                        +23 994 233 4022<br><br>
+                        info@konstruct.com</p>
+                </div>
+                <div class="footer-icons">
+                    <a href="#!" class="footer-icons_facebook">
+                        <img src="./img/fb_icon.svg" alt="Facebook">
+                    </a>
+                    <a href="#!" class="footer-icons_twitter">
+                        <img src="./img/tw_icon.svg" alt="Twitter">
+                    </a>
+                    <a href="#!" class="footer-icons_google">
+                        <img src="./img/google_icon.svg" alt="Google">
+                    </a>
+
+                </div>
+            </div>
+            <p class="footer-copyright">© 2017 Konstruct Inc. Designed by Jane Kathryn Teo</p>            
+        </div>
+    </footer>    
 </body>
 </html>
